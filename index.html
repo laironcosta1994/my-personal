@@ -1,0 +1,908 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Lairon Nunes Costa">
+    <meta name="description" content="Lairon Nunes Costa - Unity Developer | Welcome to my page!">
+    <meta name="keywords" content="Lairon Nunes Costa">
+
+    <title>Lairon Nunes Costa - Three.js Developer</title>
+    <link rel="icon" href="images/site/titleIcon.png">
+
+    <!--APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="images/site/titleIcon.png">
+
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+
+    <!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="stylesheets/vendors/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- ANIMATION -->
+    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
+
+    <!-- MAGNIFICENT POPUP -->
+    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
+
+    <!-- SWIPER -->
+    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+
+
+    <!-- MATERIALIZE -->
+    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109693420-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109693420-1');
+    </script>
+</head>
+
+<body>
+
+
+    <!--==========================================
+                  PRE-LOADER
+===========================================-->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="box-holder animated bounceInDown">
+                    <span class="load-box">
+                        <span class="box-inner"></span>
+                    </span>
+                </div>
+                <!-- NAME & STATUS -->
+                <div class="text-holder text-center">
+                    <h2>Lairon Nunes Costa</h2>
+                    <h6>Three.js Developer</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==========================================
+                    HEADER
+===========================================-->
+    <header id="home">
+        <nav id="theMenu" class="menu">
+
+            <!--MENU-->
+            <div id="menu-options" class="menu-wrap">
+
+                <!--PERSONAL LOGO-->
+                <div class="logo-flat">
+                    <img alt="personal-logo" class="img-responsive" src="images/logos/Three.js.png" loading="lazy">
+                    <!-- <img alt="profile-image" class="img-responsive" src="images/profile/mobile.jpg"> -->
+                </div>
+                <br>
+
+                <!--OPTIONS-->
+                <a href="#home">
+                    <i class="title-icon fa fa-user"></i>Home</a>
+                <a href="#about">
+                    <i class="title-icon fa fa-dashboard"></i>About</a>
+                <a href="#experience">
+                    <i class="title-icon fa fa-suitcase"></i>Experience</a>
+                <a href="#skills">
+                    <i class="title-icon fa fa-sliders"></i>Skills</a>
+                <a href="#education">
+                    <i class="title-icon fa fa-graduation-cap"></i>Education</a>
+                <a href="#portfolios">
+                    <i class="title-icon fa fa-archive"></i>Portfolio</a>
+                <!-- <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a> -->
+                <a href="#interest">
+                    <i class="title-icon fa fa-heart"></i>Interest</a>
+                <!-- <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a> -->
+                <a href="#contact">
+                    <i class="title-icon fa fa-envelope"></i>Contact</a>
+            </div>
+
+            <!-- MENU BUTTON -->
+            <div id="menuToggle">
+                <div class="toggle-normal">
+                    <i class="material-icons top-bar">remove</i>
+                    <i class="material-icons middle-bar">remove</i>
+                    <i class="material-icons bottom-bar">remove</i>
+                </div>
+            </div>
+        </nav>
+
+        <!--HEADER BACKGROUND-->
+        <div class="header-background section"></div>
+
+    </header>
+
+
+    <!--==========================================
+                   V-CARD
+===========================================-->
+    <div id="v-card-holder" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <!-- V-CARD -->
+                    <div id="v-card" class="card">
+
+                        <!-- PROFILE PICTURE -->
+                        <div id="profile" class="right">
+                            <img alt="profile-image" class="img-responsive hidden-xs"
+                                src="images/profile/about.jpg" loading="lazy">
+                            <img alt="profile-image" class="img-responsive visible-xs"
+                                src="images/profile/perfil.jpg" loading="lazy">
+                            <div class="slant"></div>
+
+                            <!--EMPTY PLUS BUTTON-->
+                            <!-- <div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div> -->
+
+                            <!--VIDEO PLAY BUTTON-->
+                            <!--<div id="button-holder" class="btn-holder">
+                                    <div id="play-btn" class="btn-floating btn-large btn-play">s
+                                        <i id="icon-play" class="material-icons">play_arrow</i>
+                                    </div>
+                                </div>-->
+                        </div>
+                        <!--VIDEO CLOSE BUTTON-->
+                        <!--<div id="close-btn" class="btn-floating icon-close">
+                                <i class="fa fa-close"></i>
+                             </div>-->
+
+                        <div class="card-content">
+
+                            <!-- NAME & STATUS -->
+                            <div class="info-headings">
+                                <h4 class="text-capitalize left">Lairon Nunes Costa</h4>
+                                <h6 class="text-capitalize left">Three.js | WebGL | 3D Web | Unity Developer</h6>
+                            </div>
+
+                            <!-- CONTACT INFO -->
+                            <div class="infos">
+                                <ul class="profile-list">                              
+                                    <li class="clearfix">
+                                        <span class="title">
+                                            <i class="material-icons">place</i>
+                                        </span>
+                                        <span class="content">Capitao Poco, Brazil</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!--HTML 5 VIDEO-->
+                        <!-- <video id="html-video" class="video" poster="images/poster/poster.jpg" controls>
+                        <source src="videos/........" type="video/webm">
+                        <source src="videos/..........." type="video/mp4">
+                    </video>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==========================================
+                   ABOUT
+===========================================-->
+    <div id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- DETAILS -->
+                    <div id="about-card" class="card">
+                        <div class="card-content">
+                            <!-- ABOUT PARAGRAPH -->
+                            <p>
+                                My expertise lies in Three.js, React three, and Blender, proficient in WebGL, allowing for seamless integration and
+                                deployment of projects on the web.
+                                Three.js specialist and Blender specialist is here to help you.
+                                Additionally, I have a strong background in game design and JavaScript, which enhances my ability to create immersive gameplay experiences.
+                                I'm passionate about pushing the boundaries of interactive media and continuously learning to stay updated with the latest industry trends. <br>
+                                Your Partner in Success : Lairon Nunes Costa
+                            </p>
+                        </div>
+
+                        <!-- BUTTONS -->
+                        <div id="about-btn" class="card-action">
+                            <div class="about-btn">
+                                <!-- DOWNLOAD CV BUTTON -->
+                                <a href="files/Resume_Lairon.pdf" target="_blank" class="btn waves-effect">Download
+                                    Resume</a>
+                                <!-- CONTACT BUTTON -->
+                                <a href="#contact" class="btn waves-effect">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==========================================
+                   EXPERIENCE
+===========================================-->
+    <section id="experience" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/layers.png" alt="demo" loading="lazy">Experience</h4>
+            </div>
+
+            <div id="timeline-experience">
+
+            <!-- Microsoft -->
+                
+
+                <!-- Lowe's -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <h6>S</h6>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Senior Three.js Developer</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Êxitus, São Paulo</small>
+                                </h6>
+                                <h6>
+                                    <small>Nov 18, 2021 - Jan 21, 2024</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                • Spearheaded the development of a cutting-edge 3D visualizer
+                                using Three.js and React, providing a dynamic platform for
+                                interactive model exploration. </br>
+                                • Existing codebase successfully, implementing best practices and design patterns, resulting in a more maintainable and scalable application. </br>
+                                • Propelled performance improvements by identifying and
+                                implementing optimizations, leading to a smoother and more
+                                efficient user interaction with the 3D visualizer. </br>
+                                • Applied advanced 3D mathematics to thereby enhancing the
+                                accuracy and reliability of the application's data visualization capabilities. </br>
+                            </p>
+
+                            <!-- BUTTON TRIGGER MODAL -->
+                            <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                        </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SapientRazorfish -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <h6>T</h6>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Three.js/WebGL Developer</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Inside Solutions, São Paulo</small>
+                                </h6>
+                                <h6>
+                                    <small>Jul 21, 2016 - Aug 12, 2020</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                • Created a captivating 3D experience using Three.js and React, enabling users to immerse them selves in an interactive storytelling environment. </br>
+                                • Implemented enhancements to the 3D models, optimizing them for compatibility with Three.js, resulting in an engaging and seamless user experience. </br>
+                                • Successfully integrated the interactive 3D experience, effectively showcasing to broad audience and generating increased user engagement and interest. </br>
+                            </p>
+                            <!-- BUTTON TRIGGER MODAL -->
+                            <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-4">
+                                                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                    </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!--==========================================
+                   SKILLS
+===========================================-->
+    <section id="skills" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/mixer.png" alt="demo" loading="lazy">Skills</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="skills-card" class="card">
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <!-- FIRST SKILL SECTION -->
+                                    <div class="skills-title">
+                                        <h6 class="text-center"></h6>
+                                    </div>
+                                    <!-- FIRST SKILL BAR -->
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>Three.js</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <!-- SECOND SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>Blender</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- THIRD SKILL BAR  -->
+                                    <div class="skillbar" data-percent="95%">
+                                        <div class="skillbar-title">
+                                            <span>JavaScript</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">95%</div>
+                                    </div>
+                                    <!-- FOURTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>Unity</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <!-- SECOND SKILL SECTION -->
+                                    <!-- <div class="skills-title">
+                                        <h6 class="text-center">Professional</h6>
+                                    </div> -->
+                                    <!-- FIRST SKILL BAR -->
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>WebGL</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <!-- SECOND SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>Web Development</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- THIRD SKILL BAR  -->
+                                    <div class="skillbar" data-percent="95%">
+                                        <div class="skillbar-title">
+                                            <span>React</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">95%</div>
+                                    </div>
+                                    <!-- FOURTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>Node.js</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <!-- THIRD SKILL SECTION -->
+                                    <!-- <div class="skills-title">
+                                        <h6 class="text-center">Software</h6>
+                                    </div> -->
+                                    <!-- FIRST SKILL BAR -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>3D Rendering</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- SECOND SKILL BAR  -->
+                                    <div class="skillbar" data-percent="85%">
+                                        <div class="skillbar-title">
+                                            <span>Webflow</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">85%</div>
+                                    </div>
+                                    <!-- THIRD SKILL BAR  -->
+                                    <div class="skillbar" data-percent="75%">
+                                        <div class="skillbar-title">
+                                            <span>3D Animation</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">75%</div>
+                                    </div>
+                                    <!-- FOURTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>C#</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================================
+                   EDUCATION
+===========================================-->
+    <section id="education" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/book.png" alt="demo" loading="lazy">Education</h4>
+            </div>
+
+            <div id="timeline-education">
+
+                <!-- FIRST TIMELINE -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Bachelor of Computer Science</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Universidade Federal Rural da Amazônia, Belém, Pará</small>
+                                </h6>
+                                <h6>
+                                    <small>Jun 2012</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                I completed my Masters from this prestigious institution with a GPA of 3.60.
+                            </p>
+                            <p>
+                                Coursework includes User Interface Design and Mobile App Development, Advanced Web
+                                Technologies, Data Structures, Algorithms and Analysis Design, Database Design, Software
+                                Testing Validation and Quality Assurance, Data mining and Data warehousing.
+                            </p>
+                            <!-- BUTTON TRIGGER MODAL -->
+                            <!-- <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-1">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOURTH TIMELINE -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Associate's degree in Computer Science</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Universidade Federal Rural da Amazônia, Belém, Pará</small>
+                                </h6>
+                                <h6>
+                                    <small>Jun 2012</small>
+                                </h6>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                Students attending MCC can enroll in one of many 2+2 programs, in which students can earn an associate's degree and be
+                                guaranteed consequent enrollment in one of the local universities and colleges.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==========================================
+                  PORTFOLIOS
+===========================================-->
+    <section id="portfolios" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/safe.png" alt="demo" loading="lazy">Portfolio</h4>
+            </div>
+            <div id="portfolios-card" class="row">
+
+                <!--OPTIONS-->
+                <ul class="nav nav-tabs">
+                    <!--ALL CATEGORIES-->
+                    <!-- <li class="active waves-effect list-shuffle"><a id="all-sample" class="active" href="#all" data-toggle="tab">ALL</a> -->
+                    <!--CATEGORIES-->
+                    <!-- <li class="waves-effect list-shuffle"><a class="cate" href="#a" data-toggle="tab">UI Development</a></li>
+                        <li class="waves-effect list-shuffle"><a class="cate" href="#b" data-toggle="tab">UI Mockups</a></li> -->
+                    <li class="waves-effect list-shuffle">
+                        <a class="cate" href="#a" data-toggle="tab">Site Templates & Sample Apps</a>
+                    </li>
+                </ul>
+
+                <!--CATEGORIES CONTENT-->
+                <div class="tab-content">
+
+                    <!--All CATEGORIES-->
+                    <div id="all"></div>
+
+                    <!--CATEGORY 1-->
+                    <div id="a">
+                        <div class="row">
+                            <!--CATEGORY CONTENT ONE SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inLeft">
+                                <a href="https://smartwatch-shop-alpha.vercel.app/" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work1.png" loading="lazy" class="img-responsive"
+                                            alt="portfolio-demo" />
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>3D Smartwatch</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <!--CATEGORY CONTENT TWO SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inRight">
+                                <a href="https://three-js-game-spacemarble-laironcosta1994.vercel.app/" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work2.png" class="img-responsive"
+                                            alt="portfolio-demo" loading="lazy"/>
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>SpaceMarble</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!--CATEGORY CONTENT THREE SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inLeft">
+                                <a href="https://chess-3d-mja9.vercel.app/" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work3.png" class="img-responsive" loading="lazy"
+                                            alt="portfolio-demo" />
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>Chess 3D</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <!--CATEGORY CONTENT FOUR SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inRight">
+                                <a href="https://threejs-for-dynamic-3d-models-of-the-iphone-15.vercel.app/" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work4.png" class="img-responsive"
+                                            alt="portfolio-demo" loading="lazy"/>
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>iPhone 15 Pro</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!--CATEGORY CONTENT FIVE SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inLeft">
+                                <a href="https://minecraft-using-js-and-three-js.vercel.app/" class="work__img" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work5.png" class="img-responsive"
+                                            alt="portfolio-demo" loading="lazy"/>
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>Minecraft</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <!--CATEGORY CONTENT SIX SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inRight">
+                                <a href="https://3-d-website-using-three-js.vercel.app/" class="work__img" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work6.png" class="img-responsive"
+                                            alt="portfolio-demo" loading="lazy"/>
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>Fizzy Drink</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!--CATEGORY CONTENT SEVEN SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inLeft">
+                                <a href="https://3d-cup-laironcosta1994s-projects.vercel.app/" class="work__img" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work7.png" class="img-responsive"
+                                            alt="portfolio-demo" loading="lazy"/>
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>Cup Configurator</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+
+                            <!--CATEGORY CONTENT EIGHT SMALL-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 grid inRight">
+                                <a href="https://three-js-project-gameboy.vercel.app/" class="work__img" target="_blank">
+                                    <figure class="port-effect-up">
+                                        <img src="images/portfolios/work8.png" class="img-responsive"
+                                            alt="portfolio-demo" loading="lazy"/>
+                                        <figcaption>
+                                            <!-- <h2>Single <span> PAGE</span></h2> -->
+                                            <p>Gameboy</p>
+                                            <!-- <a href="single-portfolio.html">View more</a> -->
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <!--PORTFOLIOS ADD GALLERY BUTTON-->
+            <!-- <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <button id="add-more" class="center-block btn-large waves-effect"><i id="port-add-icon"
+                                                                                         class="fa fa-plus"></i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+        </div>
+    </section>
+
+    <!--==========================================
+                   INTEREST
+===========================================-->
+    <section id="interest" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/heart.png" alt="demo" loading="lazy">Interest</h4>
+            </div>
+
+            <div id="interest-card" class="card">
+                <!--INTEREST TEXT-->
+                <div class="card-content">
+                    <p>
+                        First of all I love music, pop music is my favorite. And I am a best gamer. Love watching football, movies and playing
+                        badminton with my friends. I spend quite a lot of time in reading books, these keeps me fresh for working environment.
+                    </p>
+                </div>
+
+                <!--INTEREST ICONS-->
+                <div class="row no-gutters">
+
+                    <!--INTEREST ICON ONE-->
+                    <div class="col-md-2 col-sm-4 col-xs-6  box text-center">
+                        <div class="interest-icon">
+                            <i class="fa fa-music"></i>
+                            <span>Music</span>
+                        </div>
+                    </div>
+                    <!--INTEREST ICON TWO-->
+                    <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                        <div class="interest-icon-even">
+                            <i class="fa fa-gamepad"></i>
+                            <span>Gaming</span>
+                        </div>
+                    </div>
+                    <!--INTEREST ICON THREE-->
+                    <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                        <div class="interest-icon">
+                            <i class="fa fa-book"></i>
+                            <span>Reading</span>
+                        </div>
+                    </div>
+                    <!--INTEREST ICON FOUR-->
+                    <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                        <div class="interest-icon-even">
+                            <i class="fa fa-futbol-o"></i>
+                            <span>Football</span>
+                        </div>
+                    </div>
+                    <!--INTEREST ICON FIVE-->
+                    <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                        <div class="interest-icon">
+                            <i class="fa fa-plane"></i>
+                            <span>Traveling</span>
+                        </div>
+                    </div>
+                    <!--INTEREST ICON SIX-->
+                    <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                        <div class="interest-icon-even">
+                            <i class="fa fa-film"></i>
+                            <span>Movies</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--==========================================
+                  CONTACT
+===========================================-->
+    <section id="contact" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/envelope.png" alt="demo">Contact</h4>
+            </div>
+            <div class="row">
+                <div id="contact-card" class="col-md-5 col-sm-12 col-xs-12">
+                    <!-- CONTACT FORM -->
+                    <div class="card">
+                        <div class="card-content">
+                            <form id="contact-form" name="c-form">
+                                <!-- NAME -->
+                                <div class="input-field">
+                                    <input id="first_name" type="text" class="validate" name="first_name" required>
+                                    <label for="first_name">Name</label>
+                                </div>
+                                <!--SUBJECT-->
+                                <div class="input-field">
+                                    <input id="sub" type="text" class="validate" name="sub">
+                                    <label for="sub">Subject</label>
+                                </div>
+                                <!--EMAIL-->
+                                <div class="input-field">
+                                    <input id="email" type="email" class="validate" name="email" required>
+                                    <label for="email">Email</label>
+                                </div>
+                                <!--MESSAGE-->
+                                <div class="input-field">
+                                    <textarea id="textarea1" class="materialize-textarea" name="message"
+                                        required></textarea>
+                                    <label for="textarea1">Message</label>
+                                </div>
+                                <!-- SEND BUTTON -->
+                                <div class="contact-send">
+                                    <button id="submit" name="contactSubmit" type="submit" value="Submit"
+                                        class="btn waves-effect">Send
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <!--FORM LOADER-->
+                        <div id="form-loader" class="progress is-hidden">
+                            <div class="indeterminate"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-sm-12 col-xs-12">
+                    <!-- CONTACT MAP -->
+                    <div id="map-card" class="card">
+                        <!-- MAP -->
+                        <div id="myMap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15951.877719008935!2d-47.074939140573996!3d-1.7443492739833761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92afdeaea125ca33%3A0x5c6deb361d9f4df!2zQ2FwaXTDo28gUG_Dp28sIFN0YXRlIG9mIFBhcsOhLCA2ODY1MC0wMDAsIEJyYXppbA!5e0!3m2!1sen!2sus!4v1723630659921!5m2!1sen!2sus"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==========================================
+                     SCROLL TO TOP
+===========================================-->
+    <div id="scroll-top">
+        <div id="scrollup">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+
+
+    <!--==========================================
+                  SCRIPTS
+===========================================-->
+    <script src="javascript/vendors/jquery-2.1.3.min.js"></script>
+    <script src="javascript/vendors/bootstrap.min.js"></script>
+    <script src="javascript/vendors/materialize.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqQ1pfvIQ-BgajbYyNFhY-b7nXkRgAMnE"></script> -->
+    <script src="javascript/vendors/markerwithlabel.min.js"></script>
+    <!-- <script src="javascript/vendors/retina.min.js"></script> -->
+    <script src="javascript/vendors/scrollreveal.min.js"></script>
+    <script src="javascript/vendors/swiper.jquery.min.js"></script>
+    <script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="javascript/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+------------------------Overview----------------------------
+
+Could you make the top game in the world...?
+Sure, I will help you!
+
+My expertise lies in C#, Unity, and Blender, proficient in WebGL, allowing for seamless intergration and deployment of projects on the web.
+Unity specialist(#Unity2D, #Unity3D) and C# specialist is here to help you.
+
+- Expert for 8+ years
+- Professional Game developer
+
+Additionally, I have a strong background in game design and JavaScript, which enhances my ability to create immersive gameplay experiences.
+
+I'm best at :
+- C# and Unity development and workflow
+- Game paly Development
+- Graphic URP/HDRP/Deferred/Forward (lightning, shaders, post process effects)
+- Optimization (code and assets too)
+- Project management from ground up
+-Bug fixing and Debugging even in live prducts as firefighter
+- Time and resource management (leading teams and providing reliabhle schedule)
+- Networking solutions
+- Documentation
+
+Contact me if you are looking for :
+- Reliable and loyal developer
+- Clean, stable and usable product
+- Experienced Development Lead or Developer
+- Producer, Project Manager or Consultant
+
+I'm passionate about pushing the boundaries of interactive media and continuously learning to stay updated with the latest industry trends.
+
+Your Partner in Success :
+Lairon Costa
+
+------------------------Education----------------------------
+
+Universidade Federal Rural da Amazônia
+
+Bachelor of Computer Science (BCompSc), Computer science
+
+2012-2016
+
+------------------------Work Experience----------------------------
+
+Game Developer | Êxitus
+
+November 2020 - January 2024
+
+- Worked as a gameplay programmer for a published mobile game called Blade Bouncer.
+
+- Helped design monetization features and seasonal content for various mobile projects.
+
+- Contributed to several VR projects using Unity and C#.
+
+
+
+Unity Developer | Inside Solutions
+
+July 2016 - August 2020
+
+- Built complex, engaging AR applications in Unity 3D and Android with Vuforia SDK.
+
+- Collaborated with computer vision and SDK engineers in architecting API design and advised developers on best practices with rich code samples and sample applications.
+
+- Improved Unity and Vuforia integration and overall product quality in collaboration with design and product teams.
+
+------------------------Skills----------------------------
+
+C#
+Unity
+Blender
+Game Development
+3D Animation
+JavaScript
+Three.js
+WebGL
+3D Rendering
+3D Modeling
+Game Design
